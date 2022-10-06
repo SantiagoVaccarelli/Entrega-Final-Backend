@@ -69,7 +69,7 @@ if (cluster.isPrimary && MODO === "cluster") {
   app.use(passport.initialize());
   app.use(passport.session());
 
-
+  app.get("/", res.redirect("/api"))
   app.use("/api", apiRouter);
 
   websockets(io);
