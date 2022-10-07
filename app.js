@@ -74,7 +74,7 @@ if (cluster.isPrimary && MODO === "cluster") {
 
   websockets(io);
 
-  connectMongoDB();
+  //connectMongoDB();
 
   const server = app.listen(PORT, () =>
     console.log(
