@@ -3,7 +3,7 @@ content-type: application/json
 
 {
     "precio": 0,
-    "nombre": "asdfqaw e4x",
+    "nombre": "prod",
     "codigo": "1",
     "stock": 1,
     "thumbnail":"asd"

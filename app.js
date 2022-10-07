@@ -76,9 +76,9 @@ if (cluster.isPrimary && MODO === "cluster") {
 
   connectMongoDB();
 
-  const server = app.listen(process.env.PORT, () =>
+  const server = app.listen(PORT, () =>
     console.log(
-      `🚀 Server started on port ${process.env.PORT}. 
+      `🚀 Server started on port ${PORT}. 
        🧑‍🔧 Worker PID: ${process.pid}. 
        🧑‍💻 MODO: ${MODO}.
         at ${new Date().toLocaleString()}`
