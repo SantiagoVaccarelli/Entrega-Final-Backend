@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/registro HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Juan",
+    "apellido": "hola",
+    "email": "123@yahoo.com",
+    "password": "asdasd12",
+    "imagen":"asd"
+}
