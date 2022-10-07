@@ -60,7 +60,7 @@ if (cluster.isPrimary && MODO === "cluster") {
       resave: true,
       saveUninitialized: true,
       store: MongoStore.create({
-        mongoUrl: `mongodb://localhost:27017`,
+        mongoUrl: process.env.MONGO_URI,
         ttl: 60 * 10,
       }),
     })

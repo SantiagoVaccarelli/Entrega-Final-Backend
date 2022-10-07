@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const config = {
     mongoDB:{
-        URL:process.env.MONGODB_URI,
+        URL:process.env.MONGO_URI,
         options:{
             useNewUrlParser: true,
             useUnifiedTopology: true,
