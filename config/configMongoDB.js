@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const config = {
     mongoDB:{
-        URL:process.env.MONGODB_URI || process.env.MONGOURL,
+        URL:"mongodb://dbUser:dbUserPassword@cluster0.dwet05v.mongodb.net/?retryWrites=true",
         options:{
             useNewUrlParser: true,
             useUnifiedTopology: true,
@@ -12,7 +12,7 @@ const config = {
 
 export const connectMongoDB = async () => {
   try {
-    await mongoose.connect(config.mongoDB.URL, config.mongoDB.options);
+    await mongoose.connect("mongodb://dbUser:dbUserPassword@cluster0.dwet05v.mongodb.net/?retryWrites=true");
     console.log("Connected Mongo DB");
   } catch (error) {
     console.log("Error en la conexión a mongoDB", error);
