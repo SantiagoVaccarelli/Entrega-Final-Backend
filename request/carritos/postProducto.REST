@@ -1,4 +1,11 @@
-POST http://localhost:8080/api/carritos/63407cbeeec0a0df42433ce2/productos HTTP/1.1
+POST http://proyecto-final-sv.herokuapp.com/api/carritos/634081f5bcb3059ef4be613b/productos HTTP/1.1
 content-type: application/json
 
-{"id":"632874d395c15f8dc12f89c5"}
+{  
+    "id":"632874d395c15f8dc12f89c5",
+    "precio": 0,
+    "nombre": "POST",
+    "codigo": "1",
+    "stock": 1,
+    "thumbnail":"asd"
+}

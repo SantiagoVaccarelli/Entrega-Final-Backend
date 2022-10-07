@@ -1,4 +1,4 @@
-PUT http://localhost:3000/api/productos/632754c6a1035b395a2b26ff HTTP/1.1
+PUT http://proyecto-final-sv.herokuapp.com/api/productos/63407ef052570f308f4d84ec HTTP/1.1
 content-type: application/json
 
 {

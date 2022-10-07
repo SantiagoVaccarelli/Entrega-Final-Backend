@@ -1,10 +1,10 @@
-POST http://localhost:8080/api/login HTTP/1.1
+POST http://proyecto-final-sv.herokuapp.com/api/login HTTP/1.1
 content-type: application/json
 
 {
-    "nombre": "Juan",
+    "nombre": "sfaf",
     "apellido": "hola",
-    "email": "123@yahoo.com",
+    "email": "qwe@yahoo.com",
     "password": "asdasd12",
     "imagen":"asd"
 }
